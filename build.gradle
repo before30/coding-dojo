@@ -37,6 +37,7 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile('org.scala-lang:scala-library:2.12.1')
 	runtime('org.springframework.boot:spring-boot-devtools')
+	compile('org.apache.commons:commons-lang3:3.3.2')
 	compileOnly('org.projectlombok:lombok')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 	testCompile('org.scalatest:scalatest_2.12:3.0.1')
